@@ -8,3 +8,44 @@ html{
     font-size:62.5%;
 }
 
+
+
+
+/* footer */
+.social-media {
+    display: flex;
+    justify-content: center;
+    padding-top: 3rem;
+    padding-bottom: 3rem;
+  }
+  
+  .social-media a {
+    width: 2.5rem;
+    margin-right: 2rem;
+  }
+  
+  .social-media img {
+    width: 100%;
+  }
+  
+  .copyright {
+    text-align: center;
+  }
+  
+  .author {
+    text-align: center;
+  }
+
+  .corporation-number{
+    text-align: center;
+    font-weight: lighter;
+  }
+
+  .home{
+    padding:1rem;
+
+  }
+
+  /* index.html */
+
+ 
