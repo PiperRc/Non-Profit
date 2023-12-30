@@ -1,7 +1,7 @@
 
 # To do list
 
-- [ ] Initial website
+- [ ] Add google fonts
 
 - [ ] Back to top button
 
