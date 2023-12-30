@@ -42,10 +42,13 @@ html{
   }
 
   .home{
-    padding:1rem;
+    /* padding:1rem; */
 
   }
 
   /* index.html */
 
- 
+ section.home{
+    width:80%;
+    margin:0 auto;
+ }
