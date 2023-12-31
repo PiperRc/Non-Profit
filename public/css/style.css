@@ -1,3 +1,4 @@
+
 * {
   margin: 0;
   padding: 0;
@@ -10,9 +11,11 @@ html {
 
 h1 {
   font-size: 3.1rem;
+
 }
+
 p {
-  font-size: 1.7rem;
+  font-size: 1.55rem;
 }
 
 /* navbar */
@@ -41,6 +44,7 @@ nav,
 .social-media img {
   width: 100%;
 }
+
 footer .copyright p,
 footer .author p,
 footer .corporation-number p{
@@ -56,8 +60,8 @@ footer .corporation-number p{
 }
 
 .corporation-number {
-  text-align: center;
-  font-weight: lighter;
+padding-top: 3rem;
+
 }
 
 .home {
@@ -66,7 +70,22 @@ footer .corporation-number p{
 
 /* index.html */
 
+
 section.home {
-  width: 80%;
+  width: 85%;
   margin: 0 auto;
+  border:1px solid red;
+}
+
+.intro h1{
+font-family: 'Oleo Script', cursive, serif;
+font-weight: 700;
+letter-spacing: 4px;
+}
+
+.intro p{
+  font-family: 'Open Sans', sans-serif, 'sans-serif';
+  font-weight: 500;
+  padding-top:2rem;
+  line-height: 2.5rem;
 }
