@@ -10,6 +10,7 @@ html {
 
 h1 {
   font-size: 3.1rem;
+  text-align: center;
 }
 
 h2 {
@@ -78,7 +79,8 @@ footer .corporation-number p {
 /* index.html */
 
 section.home,
-section.about {
+section.about,
+section.news {
   width: 85%;
   margin: 0 auto;
   /* border: 1px solid red; */
@@ -125,13 +127,15 @@ a.page-link:hover {
 
 .intro-image,
 .news-intro-image,
-.about-image {
-  padding-top: 5rem;
+.about-image,
+.news-image{
+  padding-top: 3rem;
 }
 
 .intro-image img,
 .news-intro-image img,
-.about-image img {
+.about-image img,
+.news-image img {
   width: 100%;
   /* height: auto; */
   border-radius: 0.5rem;
@@ -158,13 +162,15 @@ section h1 {
 .intro p,
 .news-intro p,
 .stand p,
-.about p {
+.about p,
+.news p{
   padding-top: 2rem;
   line-height: 2.5rem;
 }
 
 .stand span,
-.about span {
+.about span,
+.news span {
   display: block;
   padding-top: 3rem;
 }
