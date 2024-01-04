@@ -1,4 +1,3 @@
-
 * {
   margin: 0;
   padding: 0;
@@ -11,20 +10,29 @@ html {
 
 h1 {
   font-size: 3.1rem;
+}
 
+h2 {
+  font-size: 2.3rem;
+}
+
+h3 {
+  font-size: 2rem;
 }
 
 p {
+  font-family: "Open Sans", sans-serif, "sans-serif";
   font-size: 1.55rem;
+  font-weight: 500;
 }
 
 /* navbar */
 nav,
-.navbar-brand{
-  font-size:1.7rem;
+.navbar-brand {
+  font-size: 1.7rem;
 }
 
-.nav-item{
+.nav-item {
   text-align: center;
 }
 
@@ -32,7 +40,7 @@ nav,
 .social-media {
   display: flex;
   justify-content: center;
-  padding-top: 3rem;
+  padding-top: 5rem;
   padding-bottom: 3rem;
 }
 
@@ -47,7 +55,7 @@ nav,
 
 footer .copyright p,
 footer .author p,
-footer .corporation-number p{
+footer .corporation-number p {
   font-size: 1rem;
 }
 
@@ -60,8 +68,7 @@ footer .corporation-number p{
 }
 
 .corporation-number {
-padding-top: 3rem;
-
+  padding-top: 3rem;
 }
 
 .home {
@@ -70,22 +77,89 @@ padding-top: 3rem;
 
 /* index.html */
 
-
 section.home {
   width: 85%;
   margin: 0 auto;
-  border:1px solid red;
+  /* border: 1px solid red; */
 }
 
-.intro h1{
-font-family: 'Oleo Script', cursive, serif;
-font-weight: 700;
-letter-spacing: 4px;
+.heading,
+.news-intro {
+  padding-bottom: 5rem;
+  border-bottom: 3px solid #e8e8e8;
 }
 
-.intro p{
-  font-family: 'Open Sans', sans-serif, 'sans-serif';
-  font-weight: 500;
-  padding-top:2rem;
+.intro h1 {
+  font-family: "Oleo Script", cursive, serif;
+  font-weight: 700;
+  letter-spacing: 4px;
+}
+
+.intro p {
+  padding-top: 2rem;
   line-height: 2.5rem;
+}
+
+a.page-link {
+  /* padding: 1rem; */
+  border: 2px solid #256eff;
+  font-size: 1.3rem;
+  display: inline-block;
+  text-decoration: none;
+  padding: 1rem 2.5rem;
+  border-radius: 0.5rem;
+  font-weight: bold;
+  letter-spacing: 0.2rem;
+  transition: 0.3s ease-in-out;
+  margin-top: 3rem;
+}
+
+a.page-link:hover {
+  background-color: antiquewhite;
+  color: black;
+  transform: translateY(-3px);
+  font-size: 1.32rem;
+  padding: 1.02rem 2.52rem;
+}
+
+.intro-image,
+.news-intro-image {
+  padding-top: 5rem;
+}
+
+.intro-image img,
+.news-intro-image img {
+  width: 100%;
+  /* height: auto; */
+  border-radius: 0.5rem;
+}
+
+.heading,
+.news-intro,
+.stand {
+  padding-top: 3rem;
+}
+
+.news-intro h2,
+.stand h2 {
+  display: inline-block;
+  border-bottom: 3px solid #256eff;
+  padding-bottom: 1.5rem;
+  padding-right: 2rem;
+}
+
+.news-intro h3 {
+  padding-top: 3rem;
+}
+
+.news-intro p,
+.stand p {
+  padding-top: 3rem;
+}
+
+
+
+.stand span{
+  display: block;
+  padding-top:3rem;s
 }
