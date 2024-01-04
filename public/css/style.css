@@ -77,7 +77,8 @@ footer .corporation-number p {
 
 /* index.html */
 
-section.home {
+section.home,
+section.about {
   width: 85%;
   margin: 0 auto;
   /* border: 1px solid red; */
@@ -95,10 +96,10 @@ section.home {
   letter-spacing: 4px;
 }
 
-.intro p {
+/* .intro p {
   padding-top: 2rem;
   line-height: 2.5rem;
-}
+} */
 
 a.page-link {
   /* padding: 1rem; */
@@ -123,12 +124,14 @@ a.page-link:hover {
 }
 
 .intro-image,
-.news-intro-image {
+.news-intro-image,
+.about-image {
   padding-top: 5rem;
 }
 
 .intro-image img,
-.news-intro-image img {
+.news-intro-image img,
+.about-image img {
   width: 100%;
   /* height: auto; */
   border-radius: 0.5rem;
@@ -136,7 +139,8 @@ a.page-link:hover {
 
 .heading,
 .news-intro,
-.stand {
+.stand,
+section h1 {
   padding-top: 3rem;
 }
 
@@ -151,15 +155,16 @@ a.page-link:hover {
 .news-intro h3 {
   padding-top: 3rem;
 }
-
+.intro p,
 .news-intro p,
-.stand p {
-  padding-top: 3rem;
+.stand p,
+.about p {
+  padding-top: 2rem;
+  line-height: 2.5rem;
 }
 
-
-
-.stand span{
+.stand span,
+.about span {
   display: block;
-  padding-top:3rem;s
+  padding-top: 3rem;
 }
