@@ -10,6 +10,7 @@ html {
 
 h1 {
   font-size: 3.1rem;
+  padding-top:3rem;
   text-align: center;
 }
 
@@ -80,7 +81,8 @@ footer .corporation-number p {
 
 section.home,
 section.about,
-section.news {
+section.news,
+section.contact {
   width: 85%;
   margin: 0 auto;
   /* border: 1px solid red; */
@@ -98,13 +100,8 @@ section.news {
   letter-spacing: 4px;
 }
 
-/* .intro p {
-  padding-top: 2rem;
-  line-height: 2.5rem;
-} */
-
-a.page-link {
-  /* padding: 1rem; */
+a.page-link,
+button.page-link {
   border: 2px solid #256eff;
   font-size: 1.3rem;
   display: inline-block;
@@ -117,7 +114,8 @@ a.page-link {
   margin-top: 3rem;
 }
 
-a.page-link:hover {
+a.page-link:hover,
+button.page-link {
   background-color: antiquewhite;
   color: black;
   transform: translateY(-3px);
@@ -143,8 +141,8 @@ a.page-link:hover {
 
 .heading,
 .news-intro,
-.stand,
-section h1 {
+.stand
+ {
   padding-top: 3rem;
 }
 
@@ -159,11 +157,13 @@ section h1 {
 .news-intro h3 {
   padding-top: 3rem;
 }
-.intro p,
-.news-intro p,
-.stand p,
-.about p,
-.news p{
+
+.intro p, /** index.html **/
+.news-intro p, /** index.html **/
+.stand p, /** index.html **/
+.about p, /** about.html **/
+.news p,/** news.html **/
+.contact p /** contact.html **/{
   padding-top: 2rem;
   line-height: 2.5rem;
 }
@@ -174,3 +174,55 @@ section h1 {
   display: block;
   padding-top: 3rem;
 }
+
+/* contact.html */
+.contact h3{
+  padding-top:3rem;
+}
+
+.contact li{
+ list-style: none;
+ font-size: 1.55rem;
+ padding-bottom:2rem;
+ padding-top:2rem;
+ border-bottom:  3px solid #e8e8e8;
+
+}
+.contact h2{
+  padding-top:3rem;
+}
+
+.contact i{
+  color:#256eff;
+  
+}
+
+.contact li span{
+  display: inline-block;
+  padding-left: .5rem;
+}
+
+/* contact.html contact form */
+.contact label,
+.contact input{
+  display: block;
+}
+
+.contact label{
+  font-size: 1.8rem;
+  margin-top:1rem;
+}
+
+.contact input,
+.contact .message{
+  font-size: 1.4rem;
+  margin-top: 1rem;
+  width: 100%;
+  padding: 0.8rem .9rem;
+  border-radius: 0.5rem;
+}
+
+
+
+
+
