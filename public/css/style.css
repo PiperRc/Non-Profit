@@ -115,7 +115,7 @@ button.page-link {
 }
 
 a.page-link:hover,
-button.page-link {
+button.page-link:hover {
   background-color: antiquewhite;
   color: black;
   transform: translateY(-3px);
