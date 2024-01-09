@@ -1,7 +1,7 @@
 
 # To do list
 
-- [ ] Add google fonts
+- [x] Add google fonts
 
 - [ ] Back to top button
 
