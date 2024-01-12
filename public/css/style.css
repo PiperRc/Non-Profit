@@ -83,7 +83,8 @@ section.home,
 section.about,
 section.news,
 section.contact,
-section.support {
+section.support,
+section.photos {
   width: 90%;
   margin: 0 auto;
   /* border: 1px solid red; */
@@ -227,6 +228,10 @@ button.page-link:hover {
   color: #256eff;
 }
 
+.support section{
+padding-top:6rem;
+}
+
 .support div {
   margin-bottom:2rem;
   border-bottom:2px solid #e8e8e8;
@@ -239,4 +244,16 @@ button.page-link:hover {
 .support h2,
 .support p {
   padding-top: 1rem;
+}
+/* photos.html */
+
+.gallery {
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+}
+
+.gallery img {
+  height: auto;
+  width: 100%;
 }
