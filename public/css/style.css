@@ -43,7 +43,7 @@ nav,
   display: flex;
   justify-content: center;
   padding-top: 5rem;
-  padding-bottom: 3rem;
+ 
 }
 
 .social-media a {
@@ -55,13 +55,13 @@ nav,
   width: 100%;
 }
 
-footer .copyright p,
-footer .author p,
-footer .corporation-number p {
-  font-size: 1rem;
+footer p {
+  font-size: 1.2rem;
+  font-weight: bold;
 }
 
 .copyright {
+  padding-top:3rem;
   text-align: center;
 }
 
@@ -71,6 +71,7 @@ footer .corporation-number p {
 
 .corporation-number {
   padding-top: 3rem;
+  text-align: center;
 }
 
 .home {
