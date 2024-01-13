@@ -39,10 +39,18 @@ nav,
 }
 
 /* footer */
+
+footer{
+  width: 90%;
+  border-top: 3px solid #e8e8e8;
+  margin: 0 auto;
+  margin-top:3rem;
+}
 .social-media {
   display: flex;
   justify-content: center;
-  padding-top: 5rem;
+  padding-top: 3rem;
+  
  
 }
 
