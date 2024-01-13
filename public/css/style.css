@@ -40,18 +40,16 @@ nav,
 
 /* footer */
 
-footer{
+footer {
   width: 90%;
   border-top: 3px solid #e8e8e8;
   margin: 0 auto;
-  margin-top:3rem;
+  margin-top: 3rem;
 }
 .social-media {
   display: flex;
   justify-content: center;
   padding-top: 3rem;
-  
- 
 }
 
 .social-media a {
@@ -69,7 +67,7 @@ footer p {
 }
 
 .copyright {
-  padding-top:3rem;
+  padding-top: 3rem;
   text-align: center;
 }
 
@@ -82,10 +80,6 @@ footer p {
   text-align: center;
 }
 
-.home {
-  /* padding:1rem; */
-}
-
 /* index.html */
 
 section.home,
@@ -96,7 +90,6 @@ section.support,
 section.photos {
   width: 90%;
   margin: 0 auto;
-  /* border: 1px solid red; */
 }
 
 .heading,
@@ -115,14 +108,15 @@ a.page-link,
 button.page-link {
   border: 2px solid #256eff;
   font-size: 1.3rem;
+  font-weight: bold;
   display: inline-block;
   text-decoration: none;
   padding: 1rem 2.5rem;
   border-radius: 0.5rem;
-  font-weight: bold;
   letter-spacing: 0.2rem;
   transition: 0.3s ease-in-out;
   margin-top: 3rem;
+  cursor: pointer;
 }
 
 a.page-link:hover,
@@ -192,7 +186,7 @@ button.page-link:hover {
 
 .contact li {
   list-style: none;
-  font-size: 1.55rem;
+  font-size: 1.6rem;
   padding-bottom: 2rem;
   padding-top: 2rem;
   border-bottom: 3px solid #e8e8e8;
@@ -217,7 +211,7 @@ button.page-link:hover {
 }
 
 .contact label {
-  font-size: 1.8rem;
+  font-size: 1.9rem;
   margin-top: 1rem;
 }
 
@@ -237,17 +231,17 @@ button.page-link:hover {
   color: #256eff;
 }
 
-.support section{
-padding-top:6rem;
+.support section {
+  padding-top: 6rem;
 }
 
 .support div {
-  margin-bottom:2rem;
-  border-bottom:2px solid #e8e8e8;
-  padding-bottom:2rem
+  margin-bottom: 2rem;
+  border-bottom: 2px solid #e8e8e8;
+  padding-bottom: 2rem;
 }
 
-.support div:nth-of-type(3){
+.support div:nth-of-type(3) {
   border-bottom: none;
 }
 .support h2,
@@ -267,7 +261,5 @@ padding-top:6rem;
   width: 100%;
 }
 
-@media screen and (min-width:800px) {
-
- 
+@media screen and (min-width: 800px) {
 }
