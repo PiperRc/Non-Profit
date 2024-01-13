@@ -15,23 +15,23 @@ h1 {
 }
 
 h2 {
-  font-size: 2.3rem;
+  font-size: 2.5rem;
 }
 
 h3 {
-  font-size: 2rem;
+  font-size: 2.3rem;
 }
 
 p {
   font-family: "Open Sans", sans-serif, "sans-serif";
-  font-size: 1.55rem;
+  font-size: 1.6rem;
   font-weight: 500;
 }
 
 /* navbar */
 nav,
 .navbar-brand {
-  font-size: 1.7rem;
+  font-size: 2rem;
 }
 
 .nav-item {
@@ -256,4 +256,9 @@ padding-top:6rem;
 .gallery img {
   height: auto;
   width: 100%;
+}
+
+@media screen and (min-width:800px) {
+
+ 
 }
