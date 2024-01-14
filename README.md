@@ -1,17 +1,3 @@
+* Website being made for the Charlene Cottle World Foundation
 
-# To do list
-
-- [x] Add google fonts
-
-- [ ] Back to top button
-
-- [ ] Fading pictures animation
-
-- [ ] Fading text animation
-
-- [ ] SEO
-
-- [ ] Accessibility
-
-- [ ] New navbar (optional)
-
+* Using Astro
