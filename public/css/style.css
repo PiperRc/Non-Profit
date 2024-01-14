@@ -322,6 +322,16 @@ button.page-link {
 
 
   /* support.html */
+.support section{
+  display: grid;
+  grid-template-columns: repeat(3,1fr);
+  justify-items: center;
+}
 
-  
+.support div{
+ border-bottom:0;
+ margin-bottom: 0;
+ padding-bottom: 0;
+}
+
 }
