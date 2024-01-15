@@ -47,13 +47,11 @@ nav,
 }
 
 .social-nav a {
-  display: block;
-  width: 2.5rem;
-  margin-right: 1rem;
+  width: 5rem;
 }
 
 .social-nav img {
-  width: 100%;
+  width: 75%;
 }
 
 /* footer */
@@ -352,13 +350,12 @@ button.page-link {
 
   /* navbar */
 
-  .nav-link,.social-nav a {
+  .nav-link,
+  .social-nav a {
     display: flex;
     flex-direction: column;
     justify-content: space-around;
   }
-
-  
 
   .nav-link,
   .social-nav a {
