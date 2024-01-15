@@ -5,7 +5,7 @@
 
 - [] form submit redirect
 
-- [ ] Back to top button
+- [x] Back to top button
 
 - [ ] Fading pictures animation
 
