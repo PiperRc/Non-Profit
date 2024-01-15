@@ -3,6 +3,8 @@
 
 - [x] Add google fonts
 
+- [] form submit redirect
+
 - [ ] Back to top button
 
 - [ ] Fading pictures animation
