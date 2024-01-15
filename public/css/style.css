@@ -147,6 +147,7 @@ button.page-link {
 .about-image img,
 .news-image img {
   width: 100%;
+  max-width: 100%;
   /* height: auto; */
   border-radius: 0.5rem;
 }
