@@ -3,7 +3,7 @@
 
 - [x] Add google fonts
 
-- [] form submit redirect
+- [x] form submit redirect
 
 - [x] Back to top button
 

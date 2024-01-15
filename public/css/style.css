@@ -294,6 +294,31 @@ opacity: 1;
 border:2px solid blue;
 }
 
+
+/* submit */
+
+.submit h1,
+.submit i {
+  font-size: 5rem;
+  color: #22c55e;
+  text-align: center;
+}
+
+.thumbs {
+  text-align: center;
+}
+
+.submit p {
+  font-size: 1.5rem;
+  text-align: center;
+  padding-top: 1rem;
+}
+
+.submit a {
+  color: #6366f1;
+  text-decoration: none;
+  font-weight: bold;
+}
 @media screen and (min-width: 900px) {
   /* index.html */
 
@@ -442,5 +467,22 @@ border:2px solid blue;
 
   .social-media a:hover {
     transform: translateY(-2px);
+  }
+
+
+  /* submit */
+
+  .submit h1,
+  .submit i {
+    font-size: 3rem;
+    color: #22c55e;
+   
+  }
+
+ 
+
+  .submit p {
+    font-size: 1.8rem;
+ 
   }
 }
