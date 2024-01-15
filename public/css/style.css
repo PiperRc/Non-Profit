@@ -123,7 +123,7 @@ section.photos {
 a.page-link,
 button.page-link {
   border: 2px solid #256eff;
-  font-size: 1.3rem;
+  font-size: 1.6rem;
   font-weight: bold;
   display: inline-block;
   text-decoration: none;
@@ -350,7 +350,7 @@ border:2px solid blue;
     background-color: antiquewhite;
     color: black;
     transform: translateY(-3px);
-    font-size: 1.32rem;
+    font-size: 1.7rem;
     padding: 1.02rem 2.52rem;
   }
 
@@ -479,10 +479,9 @@ border:2px solid blue;
    
   }
 
- 
 
   .submit p {
     font-size: 1.8rem;
- 
+
   }
 }
