@@ -1,5 +1,6 @@
 ---
 import Navigation from "./Navigation.astro";
+import Footer from "./Footer.astro"
 ---
 
 <!doctype html>
@@ -49,40 +50,14 @@ import Navigation from "./Navigation.astro";
   <body>
 
     <Navigation />
-    
+
     <main>
       <slot />
     </main>
 
     <a href="#" class="top">&#x2191;</a>
 
-    <footer>
-      <div class="social-media">
-        <a href="#" target="_blank">
-          <img src="/images/social-icons/facebook.png" alt="facebook-icon" />
-        </a>
-
-        <a href="#" target="_blank">
-          <img src="/images/social-icons/instagram.png" alt="" />
-        </a>
-      </div>
-
-      <div class="copyright">
-        <p>Copyright © All rights reserved.</p>
-      </div>
-
-      <div class="author">
-        <p>
-          Made by <a href="https://cheyennepiper.com/" target="_blank"
-            >Cheyenne Piper</a
-          >
-        </p>
-      </div>
-
-      <div class="corporation-number">
-        <p>Corporation Number :15186137</p>
-      </div>
-    </footer>
+    <Footer/>
 
     <script src="src/js/lightbox-plus-jquery.js" is:inline></script>
 
