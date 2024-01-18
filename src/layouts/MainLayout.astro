@@ -2,11 +2,16 @@
 import Navigation from "./Navigation.astro";
 import Footer from "./Footer.astro";
 import Header from "./Header.astro";
+import Scripts from "./Scripts.astro";
 ---
 
 <!doctype html>
 <html lang="en">
-  <Header />
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <Header />
+  </head>
 
   <body>
     <Navigation />
@@ -18,18 +23,6 @@ import Header from "./Header.astro";
     <a href="#" class="top">&#x2191;</a>
 
     <Footer />
-
-    <script src="src/js/lightbox-plus-jquery.js" is:inline></script>
-
-    <script>
-      lightbox.option({
-        alwaysShowNavOnTouchDevices: true,
-
-        disableScrolling: true,
-        wrapAround: true,
-      });
-    </script>
-
-    <script src="src/js/app.js" is:inline></script>
+    <Scripts />
   </body>
 </html>
