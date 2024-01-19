@@ -271,8 +271,9 @@ button.page-link {
   width: 100%;
 }
 
-/* top */
+/* back to top */
 .top {
+  display: none;
   font-size: 3.5rem;
   width: 3.2rem;
   height: 3.2rem;
@@ -281,7 +282,7 @@ button.page-link {
   opacity: 0.4;
   color: black;
   border-radius: 50%;
-  display: flex;
+  /* display: flex; */
   justify-content: center;
   align-items: center;
   padding-bottom: 0.5rem;
@@ -290,6 +291,10 @@ button.page-link {
   right: 0.5rem;
   transition: 300ms ease-in-out;
   text-decoration: none;
+}
+
+.visible{
+  display: flex;
 }
 
 .top:hover {
