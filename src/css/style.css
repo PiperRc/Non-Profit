@@ -30,6 +30,10 @@ p {
 
 /* navbar */
 
+.navbar{
+  background-color: #FFFDED;
+}
+
 nav,
 .navbar-brand {
   font-size: 2.5rem;
@@ -286,14 +290,12 @@ button.page-link {
   right: 0.5rem;
   transition: 300ms ease-in-out;
   text-decoration: none;
-  
 }
 
-.top:hover{
-opacity: 1;
-border:2px solid blue;
+.top:hover {
+  opacity: 1;
+  border: 2px solid blue;
 }
-
 
 /* submit */
 
@@ -402,6 +404,14 @@ border:2px solid blue;
   }
 
   /* navbar */
+  .navbar {
+    height: 8rem;
+    
+  }
+
+  .nav-link {
+    font-weight: bold;
+  }
 
   .nav-link,
   .social-nav a {
@@ -415,16 +425,19 @@ border:2px solid blue;
   }
 
   .nav-link,
-  .social-nav a {
+  .social-nav a,
+  .navbar-brand {
     transition: 500ms ease-in-out;
   }
 
   .nav-link:hover,
-  .social-nav a:hover {
+  .social-nav a:hover,
+  .navbar-brand:hover {
     transform: translateY(-2px);
   }
 
-  .nav-link::after {
+  .nav-link::after,
+  .navbar-brand::after {
     content: "";
     height: 3px;
     background: #ffae42;
@@ -433,7 +446,7 @@ border:2px solid blue;
   }
 
   .nav-link:hover::after,
-  .social-nav a:hover::after {
+  .navbar-brand:hover::after {
     transform: scale(1);
   }
 
@@ -469,19 +482,15 @@ border:2px solid blue;
     transform: translateY(-2px);
   }
 
-
   /* submit */
 
   .submit h1,
   .submit i {
     font-size: 3rem;
     color: #22c55e;
-   
   }
-
 
   .submit p {
     font-size: 1.8rem;
-
   }
 }
