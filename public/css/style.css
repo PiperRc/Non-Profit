@@ -32,6 +32,10 @@ p {
 
 .navbar{
   background-color: #FFFDED;
+  background-color: #F5FFFA; /** really good **/
+  
+
+
 }
 
 nav,
@@ -56,6 +60,11 @@ nav,
 
 .social-nav img {
   width: 70%;
+}
+
+.nav-link {
+ 
+  color:black;
 }
 
 /* footer */
@@ -416,6 +425,7 @@ button.page-link {
 
   .nav-link {
     font-weight: bold;
+    color:black;
   }
 
   .nav-link,
