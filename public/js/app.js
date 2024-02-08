@@ -13,3 +13,21 @@ document.addEventListener("DOMContentLoaded", function() {
         }
     });
 });
+
+
+const scroll = document.querySelectorAll('.scroll');
+
+const observer = new IntersectionObserver(entries => {
+  entries.forEach(entry => {
+    entry.target.classList.toggle("scroll-effect", entry.isIntersecting)
+    if (entry.isIntersecting) observer.unobserve(entry.target)
+  })
+}, {
+  threshold: .25,
+
+})
+
+scroll.forEach(img => {
+  observer.observe(img)
+})
+

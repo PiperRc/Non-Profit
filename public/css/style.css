@@ -312,6 +312,16 @@ button.page-link {
   text-decoration: none;
   font-weight: bold;
 }
+
+/* scroll effect */
+.scroll {
+  opacity: 0;
+  transition: 0.5s ease-in-out;
+}
+
+.scroll.scroll-effect {
+  opacity: 1;
+}
 @media screen and (min-width: 900px) {
   /* index.html */
 
@@ -370,7 +380,7 @@ button.page-link {
     font-size: 1rem;
   }
 
-  .stand,.about p
+  .about p
   
  {
   margin-top:3rem;

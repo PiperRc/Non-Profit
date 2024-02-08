@@ -3,53 +3,53 @@ import MainLayout from "../layouts/MainLayout.astro";
 ---
 
 <MainLayout>
-  <section class="contact">
-    <h1>CONTACT</h1>
-    <h2>Get in touch</h2>
-    <p>
+  <section class="contact scroll">
+    <h1 class="scroll">CONTACT</h1>
+    <h2 class="scroll">Get in touch</h2>
+    <p class="scroll">
       See our contact information below and we will get back to you as soon as
       possible
     </p>
 
     <ul>
       <li>
-        <i class="fa-sharp fa-solid fa-envelope"></i>
-        <span>information@untitled.tld</span>
+        <i class="fa-sharp fa-solid fa-envelope scroll"></i>
+        <span class="scroll">information@untitled.tld</span>
       </li>
 
-      <li><i class="fa-solid fa-phone"></i>
-        <span> 647-819-3421</span>
+      <li><i class="fa-solid fa-phone scroll"></i>
+        <span class="scroll"> 647-819-3421</span>
         
        
       </li>
 
       <li>
-        <i class="fa-sharp fa-solid fa-house"></i>
-        <span>1234 Somewhere Road #8254
+        <i class="fa-sharp fa-solid fa-house scroll"></i>
+        <span class="scroll">1234 Somewhere Road #8254
           Ontario, XXX-XXX</span>
       </li>
     </ul>
 
-    <h3>Or Fill out the form below:</h3>
+    <h3 class="scroll">Or Fill out the form below:</h3>
 
     <form action="https://api.web3forms.com/submit" method="POST">
       <div>
       <input type="hidden" name="access_key" value="1559e601-1e30-4ee0-be81-9d97afc7434a">
   
     
-    <label for="name" class="reveal">Name*</label>
-    <input class="reveal" type="text" id="name" required placeholder="Name" name="name">
+    <label for="name" class="reveal scroll">Name*</label>
+    <input class="reveal scroll" type="text" id="name" required placeholder="Name" name="name">
     
-    <label class="reveal" for="email">Email*</label>
-    <input class="reveal" type="text" id="email" required placeholder="Email" name="email">
+    <label class="reveal scroll" for="email">Email*</label>
+    <input class="reveal scroll" type="text" id="email" required placeholder="Email" name="email">
     
-    <label for="message">Message*</label>
-    <textarea class="message" name="message" id="" cols="30" rows="10" required placeholder="Message*"></textarea>
+    <label for="message" class="scroll">Message*</label>
+    <textarea class="message scroll" name="message" id="" cols="30" rows="10" required placeholder="Message*"></textarea>
     
     <input type="hidden" name="redirect" value="https://charlenecottle.netlify.app/form_success.html">
     
     
-    <button class="page-link">SUBMIT</button>
+    <button class="page-link scroll">SUBMIT</button>
     </div>
 
     </form>
