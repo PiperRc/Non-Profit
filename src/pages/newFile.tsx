@@ -1,0 +1,90 @@
+import MainLayout from "../layouts/MainLayout.astro";
+
+<Fragment>
+<MainLayout>
+<section class="home">
+<div class="heading">
+<div class="intro">
+<h1 class="scroll">Charlene Cottle World Foundation</h1>
+<p>
+Greetings! I am Charlene Cottle, and I welcome you to the heart and
+soul of the Charlene Cottle Foundation. Born in Trinidad and Tobago,
+my journey has woven through the vibrant tapestry of Canada for the
+past 50 years. Life has gifted me with diverse experiences, including
+navigating the challenges of eye and dental health.
+</p>
+
+<a href="/about" class="page-link scroll">READ MORE</a>
+</div>
+
+<div class="intro-image scroll">
+<img src="/images/placeholder/pic10.jpg" alt="charlene" class="scroll" />
+</div>
+</div>
+
+<div class="news-intro">
+<h2>
+<span class="scroll">News</span>
+</h2>
+
+<div class="news-intro-image scroll">
+<img src="/images/placeholder/pic10.jpg" alt="charlene" />
+</div>
+
+<h3 class="scroll">Interdum aenean</h3>
+<p class="scroll">
+Greetings! I am Charlene Cottle, and I welcome you to the heart and soul
+of the Charlene Cottle Foundation. Born in Trinidad and Tobago, my
+journey has woven through the vibrant tapestry of Canada for the past 50
+years. Life has gifted me with diverse experiences, including navigating
+the challenges of eye and dental health.
+</p>
+
+<a href="/news" class="page-link scroll">READ MORE</a>
+</div>
+
+<div class="stand">
+<h2>
+<span class="scroll"> WHAT WE STAND FOR</span>
+</h2>
+<p>
+<span class="scroll">
+The Charlene Cottle Foundation stands as a beacon of hope and
+compassion, dedicated to transforming lives by addressing the critical
+needs of individuals struggling with vision and dental health issues.
+At our core, we believe that access to quality eye and dental care is
+a fundamental right, essential for overall well-being and a pathway to
+a brighter future.
+</span>
+
+<span class="scroll">
+Our mission is to alleviate the burden of eye-related ailments such as
+cataracts and other vision impairments, as well as dental challenges
+by providing essential services, treatments, and support. We strive to
+ensure that no one is left in the shadows of preventable blindness or
+dental pain due to financial constraints or lack of resources.
+</span>
+
+<span class="scroll">
+Guided by a commitment to inclusivity, our foundation works tirelessly
+to r each underserved communities, offering comprehensive eye
+examinations, cataract surgeries, vision correction aids, and dental
+care services. We collaborate with skilled healthcare professionals
+and leverage community partnerships to extend our impact and create a
+lasting difference.
+</span>
+
+<span class="scroll">{`
+          In essence, the Charlene Cottle Foundation is a testament to our
+          founder's vision of a world where everyone has the opportunity to see
+          clearly, smile confidently, and embrace life without the shackles of
+          unmet healthcare needs. Together, we stand for compassion,
+          empowerment, and the restoration of health and dignity for those in
+          need.
+        `}</span>
+</p>
+</div>
+</section>
+</MainLayout>
+
+</Fragment>;
