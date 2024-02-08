@@ -370,6 +370,21 @@ button.page-link {
     font-size: 1rem;
   }
 
+  .stand,.about p
+  
+ {
+  margin-top:3rem;
+    border: 2px solid #509595;
+    padding-top: 2rem;
+    padding-bottom: 2rem;
+    border-radius: 0.5rem;
+
+    padding: 10px;
+    background-color: white; /* Set background color to white */
+    box-shadow: 3px 3px 4px rgba(0, 0, 0, 0.4); /* x-offset, y-offset, blur-radius, color */
+}
+  }
+
   /* photos.html */
 
   .photos {
