@@ -121,8 +121,7 @@ section.photos {
   letter-spacing: 4px;
 }
 
-a.page-link,
-button.page-link {
+.page-link {
   border: 2px solid #256eff;
   font-size: 1.6rem;
   font-weight: bold;
@@ -131,10 +130,15 @@ button.page-link {
   padding: 1rem 2.5rem;
   border-radius: 0.5rem;
   letter-spacing: 0.2rem;
-  transition: 0.3s ease-in-out;
   margin-top: 3rem;
   cursor: pointer;
+  transition: 0.5s ease;
+  box-shadow: 5px 5px;
+
 }
+
+
+
 
 .intro-image,
 .news-intro-image,
@@ -351,14 +355,6 @@ button.page-link {
     font-size: 1.8rem;
   }
 
-  a.page-link:hover,
-  button.page-link:hover {
-    background-color: antiquewhite;
-    color: black;
-    transform: translateY(-3px);
-    font-size: 1.7rem;
-    padding: 1.02rem 2.52rem;
-  }
 
   .news-intro h2,
   .stand h2 {
@@ -487,7 +483,7 @@ ul.navbar-nav {
   padding-bottom: 2rem;
   border-radius: 0.5rem;
 
-  padding: 10px;
+  /* padding: 10px; */
   background-color: white; /* Set background color to white */
   box-shadow: 3px 3px 4px rgba(0, 0, 0, 0.4); /* x-offset, y-offset, blur-radius, color */
 }

@@ -31,3 +31,9 @@ scroll.forEach(img => {
   observer.observe(img)
 })
 
+
+// let button=document.querySelector('.page-link');
+
+// button.addEventListener('click',(e)=>{
+// e.preventDefault()
+// })
