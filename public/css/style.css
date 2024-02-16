@@ -145,13 +145,6 @@ section.photos {
 
 
 
-.test:active{
-  transform: translate(5px,5px);
-  box-shadow: none;
-}
-
-
-
 .intro-image,
 .news-intro-image,
 .about-image,
@@ -395,6 +388,8 @@ section.photos {
     padding: 10px;
     background-color: white; /* Set background color to white */
     box-shadow: 3px 3px 4px rgba(0, 0, 0, 0.4); /* x-offset, y-offset, blur-radius, color */
+
+  
   }
 
 
