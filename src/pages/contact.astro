@@ -32,7 +32,7 @@ import MainLayout from "../layouts/MainLayout.astro";
 
     <h3 class="scroll">Or Fill out the form below:</h3>
 
-    <form method="POST" netlify>
+    <form action="/submit" method="POST" netlify>
       <div>
       <!-- <input type="hidden" name="access_key" value="1559e601-1e30-4ee0-be81-9d97afc7434a"> -->
   
@@ -46,9 +46,7 @@ import MainLayout from "../layouts/MainLayout.astro";
     <label for="message" class="scroll">Message*</label>
     <textarea class="message scroll" name="message" id="" cols="30" rows="10" required placeholder="Message*"></textarea>
     
-    <input type="hidden" name="redirect" value="https://charlenecottle.com/submit/">
-    
-    
+  
     <button class="button scroll">SUBMIT</button>
     </div>
 
