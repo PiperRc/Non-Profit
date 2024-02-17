@@ -37,7 +37,11 @@ p {
 
 nav,
 .navbar-brand {
-  font-size: 2.6rem;
+  font-size: 2.1rem;
+
+}
+.navbar-toggler{
+  font-size: 1.5rem;
 }
 
 .nav-item {
@@ -80,7 +84,7 @@ footer {
 }
 
 footer p {
-  font-size: 1.2rem;
+  font-size: .9rem;
   font-weight: bold;
 }
 
