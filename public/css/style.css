@@ -139,7 +139,7 @@ section.photos {
   letter-spacing: 0.2rem;
   margin-top: 3rem;
   cursor: pointer;
-  transition: 300ms ease;
+  transition: 100ms ease;
   box-shadow: 5px 5px;
 }
 .button:hover{
@@ -262,6 +262,7 @@ section.photos {
 .support i {
   font-size: 6rem;
   color: #256eff;
+  --fa-animation-iteration-count: 2;
 }
 
 .support section {
@@ -351,6 +352,8 @@ section.photos {
 @media screen and (min-width: 900px) {
   /* index.html */
 
+  
+
   p {
     font-size: 1.8rem;
   }
@@ -431,6 +434,11 @@ section.photos {
   padding-bottom: 0;
 }
 
+.support i {
+  font-size: 6rem;
+  color: #256eff;
+  --fa-animation-iteration-count: 2;
+}
 /* navbar */
 .navbar {
   height: 6rem;
@@ -520,6 +528,12 @@ ul.navbar-nav {
 
 .contact button {
   display: block;
+}
+
+.contact i{
+  
+    --fa-animation-iteration-count: 2;
+
 }
 /* footer */
 
