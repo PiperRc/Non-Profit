@@ -139,10 +139,10 @@ section.photos {
   letter-spacing: 0.2rem;
   margin-top: 3rem;
   cursor: pointer;
-  transition: .5s ease;
+  transition: 300ms ease;
   box-shadow: 5px 5px;
 }
-.button:active{
+.button:hover{
   transform: translate(5px,5px);
   box-shadow: none;
 }
@@ -200,7 +200,17 @@ section.photos {
   padding-top: 3rem;
 }
 
+.stand{
+  padding:2rem;
+  border: 2px solid #509595;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.4); /* Evenly distributed shadow all around */
+}
+
+
+/* about */
+
 /* contact.html */
+
 .contact h3 {
   padding-top: 3rem;
 }
@@ -386,16 +396,14 @@ section.photos {
   .about p {
     margin-top: 3rem;
     border: 2px solid #509595;
-    padding-top: 2rem;
-    padding-bottom: 2rem;
-    border-radius: 0.5rem;
-
     padding: 10px;
+    padding-top: 2rem; /* This will add padding along with the padding property */
+    padding-bottom: 2rem; /* This will add padding along with the padding property */
+    border-radius: 0.5rem;
     background-color: white; /* Set background color to white */
-    box-shadow: 3px 3px 4px rgba(0, 0, 0, 0.4); /* x-offset, y-offset, blur-radius, color */
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.4); /* Evenly distributed shadow all around */
+}
 
-  
-  }
 
 
 /* photos.html */
@@ -497,7 +505,7 @@ ul.navbar-nav {
 
   /* padding: 10px; */
   background-color: white; /* Set background color to white */
-  box-shadow: 3px 3px 4px rgba(0, 0, 0, 0.4); /* x-offset, y-offset, blur-radius, color */
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.4); /* Evenly distributed shadow all around */
 }
 
 .contact div {
