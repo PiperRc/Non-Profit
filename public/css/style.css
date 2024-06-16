@@ -31,8 +31,12 @@ p {
 
 /* navbar */
 
-.navbar {
+/* .navbar {
   background-color: #fffafa;
+} */
+
+.navbar.scrolled {
+  background-color: #fffafa; /* Change to your desired color */
 }
 .navbar-brand{
   font-size: 2.8rem;
