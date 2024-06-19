@@ -1,57 +1,54 @@
-<nav class="navbar navbar-expand-lg sticky-top">
-    <div class="container-fluid">
-      <a class="navbar-brand" href="/">Charlene Cottle </a>
+<nav class="navbar navbar-expand-md sticky-top">
+  <div class="container-fluid">
+    <a class="navbar-brand" href="/">Charlene Cottle</a>
 
-      <button
-        class="navbar-toggler"
-        type="button"
-        data-bs-toggle="collapse"
-        data-bs-target="#navbarNav"
-        aria-controls="navbarNav"
-        aria-expanded="false"
-        aria-label="Toggle navigation"
-      >
-        <span class="navbar-toggler-icon"></span>
-      </button>
-      
-      <div class="collapse navbar-collapse" id="navbarNav">
+    <button
+      class="navbar-toggler"
+      type="button"
+      data-bs-toggle="offcanvas"
+      data-bs-target="#offcanvasNavbar"
+      aria-controls="offcanvasNavbar"
+      aria-expanded="false"
+      aria-label="Toggle navigation"
+    >
+      <span class="navbar-toggler-icon"></span>
+    </button>
+
+    <div class="offcanvas offcanvas-end" tabindex="-1" id="offcanvasNavbar" aria-labelledby="offcanvasNavbarLabel">
+      <div class="offcanvas-header">
+        <a href="/" style="color:black;text-decoration: none; font-style: italic;">
+          <h3 class="offcanvas-title" id="offcanvasNavbarLabel">Charlene Cottle World Foundation</h3>
+        </a>
+        <button type="button" class="btn-close" data-bs-dismiss="offcanvas" aria-label="Close"></button>
+      </div>
+
+      <div class="offcanvas-body">
         <ul class="navbar-nav d-flex justify-content-end">
           <li class="nav-item">
-            <a class="nav-link"  href="/about"
-              >ABOUT</a
-            >
+            <a class="nav-link" href="/about">ABOUT</a>
           </li>
-
           <li class="nav-item">
             <a class="nav-link" href="/support">SUPPORT</a>
           </li>
-
           <li class="nav-item">
             <a class="nav-link" href="/news">NEWS</a>
           </li>
-
           <li class="nav-item">
             <a class="nav-link" href="/photos">PHOTOS</a>
           </li>
-
           <li class="nav-item">
             <a class="nav-link" href="/contact">CONTACT</a>
           </li>
-
-      
           <li class="nav-item social-nav">
-            <a href="#" target="_blank">
+            <a href="#" target="_blank" aria-label="Facebook">
               <i class="fa-brands fa-facebook-f" style="color: #316ff6;"></i>
             </a>
-            
-            <a href="#" target="_blank">
+            <a href="#" target="_blank" aria-label="Instagram">
               <i class="fa-brands fa-instagram" style="color: #fd244c;"></i>
             </a>
-
           </li>
-         
-          
         </ul>
-      </div>
+      </div> 
     </div>
-  </nav>
+  </div>
+</nav>
