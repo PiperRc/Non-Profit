@@ -466,11 +466,7 @@ nav {
   width: 10%;
 }
 
-ul.navbar-nav {
-  width: 100%;
-  display: flex;
-  justify-content: space-between;
-}
+
 
 .navbar-brand {
   margin-right: 6rem;
