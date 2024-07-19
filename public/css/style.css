@@ -451,6 +451,10 @@ section.photos {
   color: #256eff;
   --fa-animation-iteration-count: 2;
 }
+
+.email,.phone{
+  font-weight: bold;
+}
 /* navbar */
 .navbar {
   height: 6rem;
